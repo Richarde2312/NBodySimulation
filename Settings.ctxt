@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Settings
+comment1.params=demo
+comment1.target=Settings(Demo)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ applySettings()
+numComments=4

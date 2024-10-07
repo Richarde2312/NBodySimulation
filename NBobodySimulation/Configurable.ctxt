@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Configurable
+comment1.params=config
+comment1.target=void\ configure(SimulationSettings)
+numComments=2

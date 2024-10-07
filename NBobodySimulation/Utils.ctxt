@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Utils
+comment1.params=awtColor
+comment1.target=javafx.scene.paint.Color\ convertAWTColorToFXColor(java.awt.Color)
+comment2.params=bodies
+comment2.target=double[]\ flattenBodies(java.util.ArrayList)
+comment3.params=className\ backupClassName
+comment3.target=java.lang.Class\ loadClass(java.lang.String,\ java.lang.String)
+numComments=4

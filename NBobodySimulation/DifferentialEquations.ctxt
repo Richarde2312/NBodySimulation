@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DifferentialEquations
+comment0.text=\r\n\ A\ class\ that\ represents\ the\ differential\ equations,\ which\ govern\ the\ movement\ of\ particles\ in\ an\ arbitrary\ number\ of\ dimensions.\r\n
+comment1.params=masses
+comment1.target=DifferentialEquations(double[])
+comment1.text=\r\n\ Initializes\ a\ differential\ equation\ set\ based\ on\ given\ masses.\r\n\r\n\ @param\ masses\ The\ masses\ of\ each\ particle,\ in\ an\ array.\r\n
+comment2.params=particleID\ dimension
+comment2.target=double\ getAcceleration(int,\ int)
+comment2.text=\r\n\ Gets\ the\ acceleration\ for\ a\ particle\ and\ a\ dimension.\r\n\r\n\ @param\ particleID\ The\ particle\ with\ acceleration.\r\n\ @param\ dimension\ \ The\ dimension\ of\ acceleration.\r\n\ @return\ The\ acceleration.\r\n
+comment3.params=
+comment3.target=int\ getDimension()
+comment3.text=\r\n\ Gets\ the\ dimensions\ of\ the\ differential\ equations.\ From\ the\ interface.\r\n\r\n\ @return\ The\ dimensions\ of\ the\ equations.\ Always\ 12.\r\n
+comment4.params=t\ y\ yDot
+comment4.target=void\ computeDerivatives(double,\ double[],\ double[])
+comment4.text=\r\n\ Takes\ the\ derivative\ of\ an\ array\ and\ stores\ it\ an\ another\ array.\ From\ the\ interface.\r\n\r\n\ @param\ t\ \ \ \ The\ current\ time.\ Parameter\ inherited\ from\ interface,\ not\ used.\r\n\ @param\ y\ \ \ \ The\ initial\ state\ of\ the\ function.\ <br>[X-pos\ of\ particle\ 1,\ Y-pos\ of\ particle\ 1,\ X-vel\ of\ particle\ 1,\ Y-vel\ of\ particle\ 1,\ X-pos\ of\ particle\ 2,\ Y-pos\ of\ particle\ 2,\ X-vel\ of\ particle\ 2,\ Y-vel\ of\ particle\ 2,\ X-pos\ of\ particle\ 3,\ Y-pos\ of\ particle\ 3,\ X-vel\ of\ particle\ 3,\ Y-vel\ of\ particle\ 3]\r\n\ @param\ yDot\ The\ array\ where\ the\ derivatives\ are\ stored.\ <br>[X-vel\ of\ particle\ 1,\ Y-vel\ of\ particle\ 1,\ X-acc\ of\ particle\ 1,\ Y-acc\ of\ particle\ 1,\ X-vel\ of\ particle\ 2,\ Y-vel\ of\ particle\ 2,\ X-acc\ of\ particle\ 2,\ Y-acc\ of\ particle\ 2,\ X-vel\ of\ particle\ 3,\ Y-vel\ of\ particle\ 3,\ X-acc\ of\ particle\ 3,\ Y-acc\ of\ particle\ 3]\r\n
+comment5.params=vector\ mass1\ mass2\ id1\ id2
+comment5.target=void\ addToAcceleration(double[],\ double,\ double,\ int,\ int)
+comment5.text=\r\n\ Calculates\ acceleration\ due\ to\ gravity\ between\ two\ different\ objects\ and\ stores\ it\ in\ the\ accelerationStorage\ array.\r\n\r\n\ @param\ vector\ The\ distance\ between\ the\ objects.\r\n\ @param\ mass1\ \ The\ mass\ of\ object\ 1.\r\n\ @param\ mass2\ \ The\ mass\ of\ object\ 2.\r\n\ @param\ id1\ \ \ \ The\ id\ of\ object\ 1\ in\ the\ storage\ array.\r\n\ @param\ id2\ \ \ \ The\ id\ of\ object\ 2\ in\ the\ storage\ array.\r\n
+numComments=6
