@@ -1,12 +1,4 @@
-//Name: Richarde Wihby
-//Student ID: 816030381
 
-// Resources:
-//https:youtu.be/g2vDARb7gx8?feature=shared
-//https:docs.oracle.com/javase%2F8%2Fdocs%2Fapi%2F%2F/java/awt/GridBagLayout.html
-//https:youtu.be/HgkBvwgciB4?feature=shared
-//https:docs.oracle.com/javase%2Ftutorial%2Fuiswing%2F%2F/components/slider.html
-//https:youtu.be/Om3qzMoaIUo?feature=shared
 
 import NBobodySimulation.SimulationSettings;
 import java.awt.event.*;
